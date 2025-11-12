@@ -1,23 +1,16 @@
 
 
-```markdown
 # 🏗️ Terraform AWS Infrastructure – Production Environment
-
-![Terraform](https://img.shields.io/badge/Terraform-v1.5%2B-844FBA?logo=terraform)
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Status](https://img.shields.io/badge/Environment-Production-success)
-![Region](https://img.shields.io/badge/Region-us--east--1-ffb347)
-![Backend](https://img.shields.io/badge/Backend-S3%20%2B%20DynamoDB-007ec6)
-
----
 
 ## 📘 Overview
 
 This Terraform project provisions a **production-ready AWS environment** built using modular, reusable infrastructure code.  
 It includes:
-- A **dedicated VPC** with public and private subnets  
-- A **stand-alone EC2 test server** for development or validation  
+
+- A **dedicated VPC** with public and private subnets.
+ 
+- A **stand-alone EC2 test server** for development or validation .
+  
 - **Remote Terraform state management** using **S3** (for state storage) and **DynamoDB** (for state locking)
 
 The setup follows AWS and Terraform best practices for scalability, consistency, and secure collaboration.
